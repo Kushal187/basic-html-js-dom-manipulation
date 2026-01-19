@@ -111,50 +111,26 @@
       <hr />
 
       <section>
-        <h2>Listings</h2>
+      <h2>Listings</h2>
 
-        <div id="listings" class="row">
-          <div class="col-4">
-            <div class="listing card">
-              <img
-                src="https://a0.muscache.com/pictures/b7c2a199-4c17-4ba6-b81d-751719d2dac6.jpg"
-                class="card-img-top"
-                alt="AirBNB Listing"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <!-- /card -->
-          </div>
-
-
-          <div class="col-4">
-            <div class="listing card">
-              <img
-                src="https://a0.muscache.com/pictures/b7c2a199-4c17-4ba6-b81d-751719d2dac6.jpg"
-                class="card-img-top"
-                alt="AirBNB Listing"
-              />
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
-                </p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-            <!-- /card -->
-          </div>
-
+      <div class="row mb-3">
+        <div class="col-12 col-md-6">
+          <label for="sortPrice" class="form-label">Sort by price</label>
+          <select id="sortPrice" class="form-select">
+            <option value="none" selected>Default</option>
+            <option value="asc">Low → High</option>
+            <option value="desc">High → Low</option>
+          </select>
         </div>
-      </section>
+        <div class="col-12 col-md-6">
+          <div id="status" class="mt-4 text-muted"></div>
+        </div>
+      </div>
+
+      <div id="listings" class="row"></div>
+    </section>
+
+
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
