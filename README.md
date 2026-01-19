@@ -9,7 +9,7 @@ Loads and displays the first 50 Airbnb listings from a local JSON file using `fe
 - Creative addition: Sort by price (Low→High / High→Low)
 
 ## Live Demo
-Deployed on GitHub Pages: https://github.com/Kushal187/basic-html-js-dom-manipulation/deployments/github-pages
+Deployed on GitHub Pages: https://kushal187.github.io/basic-html-js-dom-manipulation/
 
 ## Run locally
 Use a local server (don’t open the HTML via file://).
