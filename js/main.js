@@ -43,7 +43,6 @@ function MainModule(listingsID = "#listings") {
   const pic = listing.picture_url || "";
   const hostName = listing.host_name || "Unknown host";
   const hostPhoto = listing.host_thumbnail_url ||"";
-  const listingUrl = listing.listing_url || "#";
 
   const description = stripHtml(listing.description);
   const shortDesc =
@@ -84,8 +83,8 @@ function MainModule(listingsID = "#listings") {
             <div>${amenitiesBadges}</div>
           </div>
 
-          <a class="btn btn-primary btn-sm mt-3" href="${listingUrl}" target="_blank" rel="noreferrer">
-            View on Airbnb
+          <a class="btn btn-primary btn-sm mt-3" href="#" target="_blank" rel="noreferrer">
+            Go somewhere
           </a>
         </div>
       </div>
